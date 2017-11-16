@@ -45,9 +45,9 @@ public class GetPackageUnit extends HttpServlet {
 		// TODO Auto-generated method stub
 		JSONObject json = new JSONObject();
 		
-		json.put("CT", "CARTONS");
+		json.put("CT", "CARTON");
 		json.put("PC", "PIECE");
-		json.put("BG", "BAGS");
+		json.put("BG", "BAG");
 		json.put("DR", "DRUM");
 		json.put("BX", "BOX");
 		
