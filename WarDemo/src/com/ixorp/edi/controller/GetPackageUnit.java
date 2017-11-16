@@ -45,11 +45,11 @@ public class GetPackageUnit extends HttpServlet {
 		// TODO Auto-generated method stub
 		JSONObject json = new JSONObject();
 		
-		json.put("CT", "CARTONS");
-		json.put("PC", "PIECES");
-		json.put("BG", "BAGS");
-		json.put("DR", "DRUMS");
-		json.put("BX", "BOXES");
+		json.put("CT", "CARTON");
+		json.put("PC", "PIECE");
+		json.put("BG", "BAG");
+		json.put("DR", "DRUM");
+		json.put("BX", "BOX");
 		
 		response.getWriter().write(json.toString());
 		
