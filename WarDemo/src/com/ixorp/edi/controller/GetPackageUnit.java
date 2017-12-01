@@ -50,6 +50,7 @@ public class GetPackageUnit extends HttpServlet {
 		json.put("BG", "BAG");
 		json.put("DR", "DRUM");
 		json.put("BX", "BOX");
+		json.put("TT", "TTT");
 		
 		response.getWriter().write(json.toString());
 		
